@@ -102,3 +102,4 @@ function getIntersection(arr1: number[], arr2: number[]) {
 const array1 = [1, 2, 3, 4, 5];
 const array2 = [3, 4, 5, 6, 7];
 console.log(getIntersection(array1, array2));
+

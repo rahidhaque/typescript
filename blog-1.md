@@ -1,4 +1,4 @@
-### Blog 1: 
+### Blog 1 
 Why is `any` labeled a "type safety hole," and why is `unknown` the safer choice for handling unpredictable data? Explain the concept of type narrowing.
 ---
 `any` and `unknown` are the two escape ways that we use to handle the data that we don't know the type of. 
@@ -14,7 +14,7 @@ For e.g.:
 let value: unknown = "Hi, Rahid";
 value.toUpperCase(); //Error we need to perform additional checks
 ```
-Type narrowing is the process of refining unknown type variable into more specific type based on runtime checks. 
+Type `narrowing` is the process of refining unknown type variable into more specific type based on runtime checks. 
 For e.g: 
 ```tsx
 const value: unknown = "Hi, Rahid";
