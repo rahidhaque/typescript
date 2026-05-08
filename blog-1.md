@@ -1,6 +1,6 @@
 ### Blog 1 
 Why is `any` labeled a "type safety hole," and why is `unknown` the safer choice for handling unpredictable data? Explain the concept of type narrowing.
----
+
 `any` and `unknown` are the two escape ways that we use to handle the data that we don't know the type of. 
 In typescript `any` is labeled as "type safety hole" because it disables the typescript's ability to check the type thus stops protecting us entirely. Therefore, it allows invalid operations where we can run into runtime errors. 
 For e.g.: 
